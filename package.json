@@ -1,0 +1,39 @@
+{
+  "name": "KIDNET",
+  "version": "1.0.0",
+  "description": "My epic Nuxt.js project",
+  "author": "lyr",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.3.6",
+    "@nuxtjs/toast": "^3.2.1",
+    "cookie-universal-nuxt": "^2.0.16",
+    "dayspan-vuetify": "^0.4.0",
+    "dotenv": "^8.1.0",
+    "jquery": "^3.4.1",
+    "js-cookie": "^2.2.0",
+    "moment": "^2.24.0",
+    "node-sass": "^4.12.0",
+    "nuxt": "^2.0.0",
+    "nuxt-i18n": "6.0.1",
+    "sass-loader": "^8.0.0",
+    "vue-client-only": "^2.0.0",
+    "vue-html-to-paper": "^1.1.1",
+    "vue-json-excel": "^0.2.98",
+    "vue-print-nb": "^1.4.0",
+    "vue-quill-editor": "^3.0.6",
+    "vue-select": "^3.1.0",
+    "vuejs-datepicker": "^1.6.2",
+    "vuetify": "^1.5.16"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9",
+    "vue-plugin-load-script": "^1.2.0"
+  }
+}

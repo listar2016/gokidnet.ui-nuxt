@@ -1,0 +1,20 @@
+const rLen = r.length
+    const rPop = r.pop()
+    const lastLangPrefixIndex = route.path.indexOf(rPop)
+    if (lastLangPrefixIndex != -1 || lastLangPrefixIndex > 1) {
+      if (rLen == 1) {
+        console.log('r len', rLen)
+        return 
+      }
+      const pathPostfix = route.path.slice(lastLangPrefixIndex + 2)
+      const newPath = `/${rPop}${pathPostfix}`
+      // console.log('newPath', newPath, 'route.path', route.path)
+
+      if (route.path != newPath) {
+        console.log('newPath', newPath, 'route.path', route.path)
+        const w = rLen >= 2 ? '/' + rPop : newPath
+
+        console.log('w', w)
+        return redirect( w )
+      }
+    }

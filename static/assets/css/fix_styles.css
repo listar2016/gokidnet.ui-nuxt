@@ -1,0 +1,71 @@
+.vs__dropdown-menu.rel,
+.rel .vs__dropdown-menu {
+  position: relative;
+}
+.vs__dropdown-menu {
+  max-height: 250px;
+}
+
+.event-tile {
+  margin-bottom: 15px;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+
+.event-tile:last-child {
+  margin-bottom: unset;
+}
+
+.act-img__cnt {
+  background-color: rgba(0, 0, 0, 0.75);
+  backdrop-filter: saturate(180%) blur(10px);
+}
+.act-img__cnt .v-responsive__content {
+  /* display: none; */
+  text-align: center;
+}
+
+ul.gellry-imgbox li img {
+  object-fit: cover;
+}
+
+.cursor-hand {
+  cursor: pointer;
+}
+
+.lang-item {
+  padding: 10px;
+  display: block;
+  color: #76ab57;
+}
+
+.lang-item div {
+  color: inherit;
+}
+
+.picked-lang-item {
+  height: 30px;
+  padding: 0;
+  margin: 0;
+  line-height: unset !important;
+  background-color: #76ab57 !important;
+}
+
+button.picked-lang-item {
+  background-color: #76ab57 !important;
+  box-shadow: none !important;
+}
+
+.lang-elem-list {
+  padding: 0 !important;
+}
+
+.spinner-cnt {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 30px auto;
+}
+
+.picked-lang-item .v-btn__content {
+  line-height: 0;
+}
